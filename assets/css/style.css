@@ -1,0 +1,255 @@
+/*stylesheet for portfolio site*/
+
+
+body,
+div {
+    color: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    /*align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;*/
+}
+
+.is-home body {
+    color: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+}
+
+.is-transitioning {
+    pointer-events: none;
+    cursor: progress;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    color: #fff;
+    justify-content: center;
+    align-content: center;
+}
+
+/* =General */
+h1 {
+    color: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    justify-content: center;
+    position: relative;
+    /*align-content: center;
+    align-items: center;
+    justify-content: center;*/
+}
+
+#homeTitle {
+    position: relative;
+    top: 50%;
+}
+
+#subtitle {
+    line-height: 1.4;
+    display: flex;
+    /*flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;*/
+    margin: auto;
+    position: relative;
+    transform: translate(0%, 50%);
+}
+
+#aboutMeText,
+#groceryStoreAppText,
+#controlRedesignText,
+#fluffStuffText,
+#theaterAppText {
+    position: relative;
+    padding-top: 100px;
+}
+
+.a {
+    color: #E5E5E5;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 5px 10px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 4px;
+    justify-content: center;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.textLink {
+    color: #E5E5E5;
+    text-decoration: underline;
+}
+
+
+.loader {
+    position: fixed;
+    width: 100vw;
+    height: 200vh;
+    pointer-events: none;
+    background-color: #E5E5E5;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+}
+
+img {
+    max-width: 1000px;
+    align-content: center;
+    justify-content: center;
+}
+
+/*from main.css*/
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2553&q=80");
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+
+/*from demo.css*/
+
+.a2a_kit {
+    position: absolute;
+    transition: all 0.2s ease-in;
+    top: 20px; right: 20px; left: auto;
+    opacity: 1;
+}
+.is-transitioning .a2a_kit,
+.is-transitioning .back-link {
+    opacity: 0;
+}
+
+/*from style.css*/
+
+.pageTitle {
+    top:10%;
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftButton {
+    color: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    /*font-family: 'Work Sans', sans-serif;*/
+    position: fixed;
+    /*bottom: 10%;*/
+    text-decoration: none;
+    top: 5%;
+    right: 10%;
+}
+
+.rightButton {
+    color: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    position: fixed;
+    /*bottom: 10%;*/
+    top: 15%;
+    right: 10%;
+    text-decoration: none;
+    align-content: right;
+    /*right: 0%;*/
+    /*left: 90%;*/
+    /*margin-right: 100px;*/
+}
+
+#resumeButton {
+    background-color: #045E7C;
+    color: #E5E5E5;
+    height: 50px;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    margin: 0;
+/*    position: relative;
+    top: 50px;*/
+    /*align-content: center;*/
+    /*left: 42%;
+    right: 50%;*/
+    /*position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+#resumeButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+/*myWork grid*/
+.flex-grid {
+  display: flex;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  top: 30%;
+
+}
+.col {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.workImage {
+    height: 200px;
+    width: auto;
+}
+
+/*.spacer {
+    height: 150px;
+}*/
+
+
+

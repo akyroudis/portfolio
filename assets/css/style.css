@@ -76,6 +76,10 @@ h1 {
     padding-top: 100px;
 }
 
+#aboutMeImage {
+    max-width: 750px;
+}
+
 .a {
     color: #E5E5E5;
     text-decoration: none;
